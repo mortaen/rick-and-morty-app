@@ -1,11 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css"
 
-function App() {
+function App({ data }) {
+  const rickSanchez = data.find((el) => el.id === 1)
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={rickSanchez.image} className="App-logo" alt="Rick Sanchez" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -19,7 +20,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
