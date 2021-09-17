@@ -5,7 +5,8 @@ function App({ data }) {
 
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header"></header>
+      <main className="main">
         <img src={rickSanchez.image} className="App-logo" alt="Rick Sanchez" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -18,7 +19,7 @@ function App({ data }) {
         >
           Learn React
         </a>
-      </header>
+      </main>
     </div>
   )
 }
