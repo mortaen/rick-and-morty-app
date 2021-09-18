@@ -5,20 +5,16 @@ function App({ data }) {
 
   return (
     <div className="App">
-      <header className="App-header"></header>
       <main className="main">
-        <img src={rickSanchez.image} className="App-logo" alt="Rick Sanchez" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <section className="fear-and-loathing-section">
+          <img
+            src={rickSanchez.image}
+            className="rick-image"
+            alt="Rick Sanchez"
+          />
+        </section>
+        <section className="heads-section"></section>
+        <section className="mib-section"></section>
       </main>
     </div>
   )

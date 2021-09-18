@@ -1,37 +1,44 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
+.rick-image {
   height: 20vmin;
   pointer-events: none;
   border-radius: 50%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 10s linear;
+  .rick-image {
+    animation: rick-image-spin infinite 10s linear;
   }
 }
 
-.App-header {
-  background-image: url("./img/rick-and-morty-fear-and-loathing-in-las-vegas.jpeg");
-  background-size: cover;
-  min-height: 40vh;
-}
-
-.main {
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+@keyframes rick-image-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+}
+
+.main {
+  min-height: 100vh;
+}
+
+.fear-and-loathing-section {
+  background-image: url("./img/rick-and-morty-fear-and-loathing-in-las-vegas.jpeg");
+  height: 34vh;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.heads-section {
+  background-image: url("./img/rick-and-morty-heads.jpeg");
+  height: 33vh;
+  background-size: cover;
+}
+
+.mib-section {
+  background-image: url("./img/rick-and-morty-MIB.jpeg");
+  height: 33vh;
+  background-size: cover;
 }
