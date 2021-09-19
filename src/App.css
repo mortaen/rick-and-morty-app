@@ -20,21 +20,27 @@
 }
 
 .main {
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .fear-and-loathing-section {
-  background-image: url("./img/rick-and-morty-fear-and-loathing-in-las-vegas.jpeg");
   height: 34vh;
+  background-image: url("./img/rick-and-morty-fear-and-loathing-in-las-vegas.jpeg");
   background-size: cover;
-  display: flex;
-  justify-content: flex-end;
+}
+
+.fear-overlay {
+  opacity: 0.2;
+  height: 100%;
+  width: 100%;
 }
 
 .heads-section {
   background-image: url("./img/rick-and-morty-heads.jpeg");
   height: 33vh;
   background-size: cover;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .mib-section {
